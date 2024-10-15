@@ -145,7 +145,7 @@ DownloadInstaller -url $installerUrl -destination $installerPath
 Log "Running iCUE installer."
 Log "Click on Repair (what I normally use) and select the installation as normal"
 
-Start-Sleep -Seconds 15
+Start-Sleep -Seconds 5
 Start-Process -FilePath $installerPath -ArgumentList "/S" -Wait
 Log "iCUE installation completed. Have Fun :)"
 
