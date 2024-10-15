@@ -46,6 +46,8 @@ This PowerShell script helps you **reinstall iCUE** (Corsair's RGB control softw
 8. Once the directory is successfully removed, the script will **download and install the latest iCUE** version.
 9. After installation, the script will display a "Have Fun :)" message.
 
+https://github.com/user-attachments/assets/9258fdca-2e41-423d-aafb-3d0e99a19d2a
+
 ## Contact
 
 If you encounter any issues or have questions, you can contact me via:
