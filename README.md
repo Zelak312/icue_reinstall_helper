@@ -37,12 +37,14 @@ This PowerShell script helps you **reinstall iCUE** (Corsair's RGB control softw
 ## How to Use
 
 1. **Download** the script (`icue_reinstall_helper.ps1`) to your local machine.
-2. **Right-click** the script file and select **Run with PowerShell**.
-3. The script will ask for **Administrator permissions**. Grant the permissions for it to proceed.
-4. The script will then **forcefully close iCUE**, stop related services and drivers, and attempt to remove the old iCUE directory.
-5. If necessary, the script will **move locked files** to the temp folder and retry the removal of the directory.
-6. Once the directory is successfully removed, the script will **download and install the latest iCUE** version.
-7. After installation, the script will display a "Have Fun :)" message.
+2. **Right-click** the script file and select **Edit**.
+3. Paste and run this command in the blue powershell prompt `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process`
+4. Run the script using the green start button at the top
+5. The script will ask for **Administrator permissions**. Grant the permissions for it to proceed.
+6. The script will then **forcefully close iCUE**, stop related services and drivers, and attempt to remove the old iCUE directory.
+7. If necessary, the script will **move locked files** to the temp folder and retry the removal of the directory.
+8. Once the directory is successfully removed, the script will **download and install the latest iCUE** version.
+9. After installation, the script will display a "Have Fun :)" message.
 
 ## Contact
 
