@@ -36,13 +36,16 @@ Ce script PowerShell vous aide à **réinstaller iCUE** (le logiciel de contrôl
 
 ## Comment utiliser
 
-1. **Téléchargez** le script (`icue_reinstall_helper.ps1`) sur votre machine locale.
-2. **Cliquez-droit** sur le fichier du script et sélectionnez **Exécuter avec PowerShell**.
-3. Le script demandera des **autorisations administratives**. Accordez les autorisations pour qu'il puisse continuer.
-4. Le script va **fermer iCUE de force**, arrêter les services et les pilotes associés, puis tenter de supprimer l'ancien répertoire iCUE.
-5. Si nécessaire, le script **déplacera les fichiers verrouillés** dans le dossier temporaire et réessaiera la suppression du répertoire.
-6. Une fois le répertoire supprimé avec succès, le script **téléchargera et installera la dernière version d'iCUE**.
-7. Après l'installation, le script affichera un message "Have Fun :)".
+1. Téléchargez le script (icue_reinstall_helper.ps1) sur votre ordinateur.
+2. Faites un clic droit sur le fichier du script et sélectionnez Modifier.
+3. Collez et exécutez cette commande dans l’invite bleue de PowerShell `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process`
+   (Appuyer sur entre pour executer)
+4. Exécutez le script en utilisant le bouton vert Démarrer en haut.
+5. Le script demandera des autorisations administratives. Accordez les permissions pour qu'il puisse continuer.
+6. Le script forcera ensuite la fermeture d’iCUE, arrêtera les services et pilotes associés, et tentera de supprimer l’ancien répertoire iCUE.
+7. Si nécessaire, le script déplacera les fichiers verrouillés vers le dossier temporaire et réessaiera de supprimer le répertoire.
+8. Une fois le répertoire supprimé avec succès, le script téléchargera et installera la dernière version d’iCUE.
+9. Après l’installation, le script affichera un message : "Amusez-vous bien :)".
 
 ## Contact
 
